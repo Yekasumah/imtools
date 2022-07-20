@@ -1,0 +1,82 @@
+header{
+    background-color: rgb(27, 9, 110);
+    height: 70px;
+    margin-top: -10px;
+}
+    body{
+        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    }
+
+    .form-control{
+        background-color: transparent;
+       text-align: left;
+       font-size: 18px;
+       border: 1.5px solid;
+       border-radius: 10px;
+       width: 600px; height: 60px;
+       border-color: black;
+       margin-bottom : 10px;
+       color: black;
+       margin-left: 225px;
+       margin-top: 20px;
+   
+       }
+
+       #inputbox{
+        margin-top: 30px;
+       }
+    .add{
+        
+        margin-left: 60px;
+        color: rgba(6, 6, 97, 0.884);
+        font-weight: 580;
+        font-size: 35px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .balance{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 70px;
+        padding-top: 50px;
+        margin-bottom: 40px;
+    }
+    .body{
+        display:flex;
+        justify-content: center;
+        border:5px solid;
+        background-color: white;
+        border-color: transparent;
+        flex-direction: column;
+        border-radius: 20px;
+        width: 1000px;
+        height:auto;
+        margin-left: 170px;
+        margin-bottom: 20px;
+        margin-top: 80px;
+    }    
+    .card1{
+      
+    background-color:rgb(9, 9, 146);
+    text-align: center;
+    font-size: 10px;
+    border: 0px;
+    border-radius: 10px;
+    width: 700px; height: 150px;
+    border-color: black;
+    margin-bottom : 10px;
+    margin-right: 10px;
+    color:white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.432);
+    margin-left: 160px;
+    margin-top: 20px;
+
+    }
+  .fun{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 30px;
+    margin-right: 130px;
+  }
+    

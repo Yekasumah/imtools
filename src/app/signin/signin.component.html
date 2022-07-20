@@ -1,0 +1,17 @@
+<body><div class="loginBox"> 
+    <h3>Sign in</h3>
+    <form [formGroup]="login">
+        <div class="inputBox"> 
+            <input id="uname" type="text" name="Email" placeholder="Enter email address" formControlName="email"> 
+            <input id="pass" type="password" name="Password" placeholder="Password" formControlName="password"> 
+        </div> 
+       <a routerLink="/dashboard" routerLinkActive="activebutton" ariaCurrentWhenActive="page"><input type="submit" name="" value="Login"></a> 
+    </form> 
+    <a  class="dil" routerLink="/forgetpword" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Forgot Password? <br> </a>
+    <div class="text-center">
+        <div class="in">
+            <p>Don't have an account <a routerLink="/signup" routerLinkActive="activebutton" ariaCurrentWhenActive="page"><button class="a">Sign up</button></a></p>
+            </div>
+    </div>
+    </div>
+</body>

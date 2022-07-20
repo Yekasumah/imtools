@@ -1,0 +1,160 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+li, a, button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}
+header{
+    padding-top: 20px;
+}
+header
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10% ;
+        margin-top: -50px;
+ }
+
+ 
+@media screen and (max-width: 479px) {
+.navigation-wrap {
+    background-color: #fef7ed;
+    font-size: 30px;
+}}
+@media screen and (max-width: 991px) {
+.navigation-wrap {
+    background-color: #fef7ed;
+}
+}
+
+img{
+    width: 60px;
+    height: 100px;
+    margin-left: -20px;
+}
+.logo{
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.container{
+     list-style: none;
+     color: black;
+     margin-top: 30px;
+}
+.container li{
+    display: inline-block;
+    padding: 0px 20px;
+ 
+}
+.container li a{
+    transition: all 0.3s ease 0s;
+    align-self: center;
+}
+.container li a:hover{
+    transition: all 0.3s ease 0s;
+    color: blue
+}
+button{
+    padding: 5px 25px;
+    background-color: blue;
+    border: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    padding-top: -30px;
+    margin-top: 22px;
+}
+button:hover{
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+.ctas{
+    text-align: center;
+    margin-top: 90px;
+    padding-top: 10px;
+}
+h1{
+    font-size: 50px;
+}
+.cus{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #468284
+}
+.chance, .rta{
+    display:inline-block;
+    display: flex;
+    justify-content: center;
+}
+.money{
+    color: #ff9912;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+#bton{
+    margin-top: 40px;
+}
+
+
+@media (max-width:500px) {
+    body {
+        padding: 10px;
+    }
+    button{
+        size: 30px;
+    }
+
+    .container {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    .container form {
+        max-width: 100%;
+    }
+}
+
+span{
+    color:#ff9912;
+}
+
+.fast {	
+ overflow: hidden;
+ position: relative;
+ background: transparent;
+}
+.fast {
+    margin-right: 10px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+    animation-name:lower_head;
+    animation-duration:3s;
+    animation-timing-function:ease-in;
+    animation-delay:1s;
+    animation-play-state:active;
+    animation-iteration-count:infinite;
+}
+
+@keyframes lower_head {
+    from {
+        margin-top:0px;
+    }
+    to {
+        margin-top:-10px;
+    };
+}

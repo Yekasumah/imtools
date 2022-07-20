@@ -1,0 +1,261 @@
+.card{
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+        align-items: center;
+        padding: 20px 10% ;
+        background-color: rgba(235, 235, 235, 0);
+        padding: 10px;
+        flex-direction:row;
+        border: 0px;
+        padding-top: 30px;
+}
+h1{
+    display:block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    color: rgb(8, 8, 131);
+}
+
+h4{
+    display:block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13.5px;
+    margin-left: 130px; 
+    font-weight: 600;
+    color: rgba(47, 38, 129, 0.671);
+}
+.sta, .rct{
+    background-color: white ;
+    text-align: center;
+    font-size: 10px;
+    border: 0px;
+    border-radius: 10px;
+    width: 350px; height: 200px;
+    border-color: black;
+margin-bottom : 10px;
+   margin-right: 10px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.432);
+
+} 
+.cont{
+    display: flex;
+    justify-content:right;
+    margin-right: 10px;
+    align-items: center;
+    padding: 20px 10% ;
+    padding: 10px;
+    flex-direction: column;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    height: 1500px;
+
+}
+.profile{
+    border: 5px solid white;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.rct{
+    width:1030px;
+    text-align: center;
+    justify-content: center;
+    height: 500px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 0px;
+}
+.icon{
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: -100px;
+    margin-top: 20px;
+
+}
+.loan{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted;
+    border-radius: 10px;
+    height: 120px;
+    width: 330px;
+    background-color: rgba(255, 166, 0, 0.363);
+    margin-left: 10px;
+    border-color: rgba(4, 4, 68, 0.233);
+}
+.sell{
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    border: none;
+    margin-right: 20px;
+    margin-top: -38px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: black;
+
+}
+
+.loans{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 10px;
+    font-size: 20px;
+   
+}
+.fund{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 45x;
+    color: rgba(21, 10, 78, 0.479);
+}
+.fun{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+header{
+    background-color: rgb(27, 9, 110);
+    height: 70px;
+    margin-top: -10px;}
+
+.piggy{
+    border: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    width:35px;
+    height: 35px;
+    justify-content: center;
+    padding-bottom: -2px;
+    padding-top: 2px;
+    color: rgba(9, 3, 88, 0.377);
+}
+.spin{
+    display: grid;
+    border:solid 6px rgba(255, 166, 0, 0.438);
+    border-radius: 60%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    text-align: center;
+    border-right-color: whitesmoke;
+    margin-left: 147px;
+    margin-top: 30px;
+    margin-right: -100px;
+    } 
+    #balance{
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: row;
+        margin-left: 13px;
+        margin-top: 10px;
+    }
+
+.funs{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: -50px;
+    
+}
+.fun{
+    margin-left: 80px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.bal{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.pt{
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 6px;
+}
+.setu{
+    margin-top: 25px;
+    font-size: 11px;
+   
+}
+.setup{
+    margin-top: -5px;
+    font-size: 12px;
+    color: rgb(14, 14, 88);
+}
+
+.dropbtn {
+    background-color: #04aa6d00;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: orange;
+  border: 5px solid transparent; border-radius: 60%;
+  height:5px; width:6px;}
+  
+.p{
+    color: white;
+    margin-left: 30px;
+    padding-top: 25px;
+    padding-left: 20px;
+    font-weight: 800;
+    font-size: 25px;
+}
+button{
+    color:rgba(128, 128, 128, 0.61)
+}
