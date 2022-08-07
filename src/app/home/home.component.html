@@ -2,18 +2,23 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
 <body>
 <header>
-    <a class="logo" href="#" alt="Logo">I.Tools</a>
-    <nav>
-    <ul class="container">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Services</a></li>
+  <a class="logo" href="#" alt="Logo">I.Tools</a>
+  <app-homeheader></app-homeheader>  
+  <nav class="navbar">
+      
+    
+    <ul class="container" id="myLinks">
+      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
     </ul>
     </nav>
     <a class="cta" routerLink="/signin" routerLinkActive="activebutton" ariaCurrentWhenActive="page"><button>Sign in</button></a>
-  </header>
+
+
+    </header>
   <div class="ctas">
-  <div class="chance"><h1><span class="fast"> Gain Total </span>Control of your own </h1></div>
+  <div class="chance"><h1><span  id="span" class="fast"> Gain Total </span>Control of your own </h1></div>
   <p class="cus">We enable our Customers carry out day to day transactions at ease, </p> <p class="cus"> Get loan for your business and invest your money securely from the palm of your hands</p>
   </div>
   <div class="rta">

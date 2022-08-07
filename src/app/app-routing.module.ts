@@ -12,11 +12,12 @@ import { SigninComponent } from './signin/signin.component';
 import { VerifypwordComponent } from './verifypword/verifypword.component';
 import { AddfundsComponent } from './addfunds/addfunds.component';
 import { WithdrawComponent } from './withdraw/withdraw.component';
-
+import { VerifybvnComponent } from './verifybvn/verifybvn.component';
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full' },
   {path: 'signup', component: SignupComponent},
   {path: 'home', component: HomeComponent},
+  {path: 'verifybvn', component: VerifybvnComponent},
   {path:  'signin', component: SigninComponent},
   {path: 'verifypword', component: VerifypwordComponent},
   {path: 'forgetpword', component: ForgetpwordComponent },

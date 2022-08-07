@@ -18,6 +18,7 @@ import { MaterialModule } from './material/material.module';
 import { AddfundsComponent } from './addfunds/addfunds.component';
 import { WithdrawComponent } from './withdraw/withdraw.component';
 import { HeaderComponent } from './header/header.component';
+import { HomeheaderComponent } from './homeheader/homeheader.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { HeaderComponent } from './header/header.component';
     EmailComponent,
     AddfundsComponent,
     WithdrawComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeheaderComponent
   ],
   imports: [
     BrowserModule,

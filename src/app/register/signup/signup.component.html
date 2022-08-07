@@ -4,7 +4,7 @@
     
     <h3>Sign up</h3>
     <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
-        <span style= "color:red" *ngIf="email && email.invalid">*Email is required</span>
+        <span style= "color:grey" *ngIf="email && email.invalid">*Email is required</span>
         <div class="inputBox"> 
             <input type="text"
             formControlName="email"
@@ -14,11 +14,11 @@
           </div> 
             <input formControlName="password"
           id="pass" type="password" name="Password" placeholder="Password"/>
-          <span style="color:red" *ngIf="password && password.invalid">*Password must be more than 5 characters</span>
-
+          <span style="color:grey" *ngIf="password && password.invalid">*Password must be more than 5 characters</span>
+        </form>
          <a  routerLink="/verifypword" routerLinkActive="activebutton" ariaCurrentWhenActive="page"> <input [disabled]="signupForm.invalid" type="submit" name="" value="Sign up" ></a> 
     
-    </form> 
+    
     <div class="in">
     <p>Already have an account  <a routerLink="/signin" routerLinkActive="activebutton" ariaCurrentWhenActive="page"><button class="buttons">Sign in here</button></a></p>
     </div>

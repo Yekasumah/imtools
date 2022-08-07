@@ -52,19 +52,21 @@ a{
     border-right: 0px;
     border-bottom: 1px solid;
     margin-left: 10px;
-    background-color: none;
-    
+    background-color: transparent;
 }
 .code-input[name="code"]:focus{
     margin-left: 10px;
-    background-color: none;
+    background: none;
+    border: 0px transparent;
     border-radius: 20px;
-    border: 0.1px solid;
-
 }
-
+.code-input[name="code"]:hover{
+    margin-left: 10px;
+    padding-left: 10px;
+    background:none;
+}
 textarea{
-    background-color: none;
+    background-color: transparent;
 }
 p{
     color: rgba(3, 3, 46, 0.356);
