@@ -1,6 +1,6 @@
 body{margin: 0;padding: 0;background: #f1f1f1 no-repeat;height: 100vh;font-family: sans-serif;background-size: cover;background-repeat: no-repeat;background-position: center;overflow: hidden}
 
-#particles-js{height: 100%}.loginBox{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 80%;min-height: 20%; border: 0.3px solid rgba(243, 247, 243, 0.014); background: white;border-radius: 10px;padding: 40px;box-sizing: border-box}
+#particles-js{height: 100%}.loginBox{position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);width: 50%;min-height: 20%; border: 0.3px solid rgba(243, 247, 243, 0.014); background: white;border-radius: 10px;padding: 40px;box-sizing: border-box}
 .user{margin: 0 auto;display: block;margin-bottom: 20px}
 h3{margin: 0;padding: 0 0 20px;color: black;text-align: center; font-weight: bold; margin-bottom: 24px; margin-top: 10px; font-size:25px;}
 .loginBox input{width: 100%;margin-bottom: 20px}.loginBox input[type="text"], 

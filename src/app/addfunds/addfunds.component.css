@@ -1,5 +1,7 @@
-@media only screen and (max-width:333px){
-    
+
+    h1{
+        margin-left: -5%;
+    }
 
     header{
         background-color: rgb(27, 9, 110);
@@ -10,460 +12,45 @@
     .body{
         display:flex;
         justify-content: center;
-        border:5px solid;
+        border:1px solid;
         background-color: white;
-        border-color: transparent;
+        border-color: rgba(0, 0, 0, 0.253);
         flex-direction: column;
         border-radius: 20px;
-        width: 600px;
-        height: 1000px;
-        margin-left: 0px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        
-       
-    }
-    
-        body{
-            background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-            width: 100%;
-        }
-    
-        .balance{
-            display: flex;
-            justify-content: flex-start;
-            margin-left: 70px;
-            padding-top: 50px;
-            margin-bottom: 10px;
-            padding-bottom: 20px;
-        }
-        .card1{
-          
-        background-color:rgb(9, 9, 146);
-        text-align: center;
-        font-size: 10px;
-        border: 0px;
-        border-radius: 10px;
-        width: 500px; height: 150px;
-        border-color: black;
-        margin-bottom : 10px;
-        margin-right: 10px;
-        color:white;
-        box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.432);
-        margin-left: 60px;
-    
-        }
-    
-        .pay{
-            font-size: 20px;
-            margin-left: 50px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            color: rgb(4, 4, 65);
-        }
-    
-         .bank, .bank1{
-         background-color: transparent;
-        text-align: left;
-        font-size: 20px;
-        border: 1.5px solid;
-        border-radius: 10px;
-        width: 500px; height: 120px;
-        border-color: black;
-        margin-bottom : 10px;
-        color: black;
-        margin-left: 80px;
-        margin-top: 20px;
-    
-        }
-         .bank1{
-            margin-top: 20px;
-         }
-    
-        .add{
-            margin-top: -40px;
-            margin-left: 50px;
-            color: rgba(6, 6, 97, 0.884);
-            font-weight: 580;
-            font-size: 40px;
-            padding-bottom: 30px;
-        }
-        .h3{
-            margin-left: 30px;
-            margin-top: 20px;
-         font-size: 20px;
-        }
-        #i{
-          font-size: 30px;
-          color: black;
-       }
-       button:hover{
-                  background-color: rgb(4, 4, 78);
-                  color: white;
-       }
-    }
-
-@media only screen and (max-width:767px){
-    
-
-header{
-    background-color: rgb(27, 9, 110);
-    height: 70px;
-    margin-top: -10px;
-}
-
-.body{
-    display:flex;
-    justify-content: center;
-    border:5px solid;
-    background-color: white;
-    border-color: transparent;
-    flex-direction: column;
-    border-radius: 20px;
-    width: 600px;
-    height: 1000px;
-    margin-left: 70px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    
-   
-}
-
-    body{
-        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-        width: 100%;
-    }
-
-    .balance{
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 70px;
-        padding-top: 50px;
-        margin-bottom: 10px;
-        padding-bottom: 20px;
-    }
-    .card1{
-      
-    background-color:rgb(9, 9, 146);
-    text-align: center;
-    font-size: 10px;
-    border: 0px;
-    border-radius: 10px;
-    width: 500px; height: 150px;
-    border-color: black;
-    margin-bottom : 10px;
-    margin-right: 10px;
-    color:white;
-    box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.432);
-    margin-left: 60px;
-
-    }
-
-    .pay{
-        font-size: 20px;
-        margin-left: 50px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        color: rgb(4, 4, 65);
-    }
-
-     .bank, .bank1{
-     background-color: transparent;
-    text-align: left;
-    font-size: 20px;
-    border: 1.5px solid;
-    border-radius: 10px;
-    width: 500px; height: 120px;
-    border-color: black;
-    margin-bottom : 10px;
-    color: black;
-    margin-left: 50px;
-    margin-top: 20px;
-
-    }
-     .bank1{
-        margin-top: 20px;
-     }
-
-    .add{
-        margin-top: -40px;
-        margin-left: 50px;
-        color: rgba(6, 6, 97, 0.884);
-        font-weight: 580;
-        font-size: 40px;
-        padding-bottom: 30px;
-    }
-    .h3{
-        margin-left: 30px;
-        margin-top: 20px;
-     font-size: 20px;
-    }
-    #i{
-      font-size: 30px;
-      color: black;
-   }
-   button:hover{
-              background-color: rgb(4, 4, 78);
-              color: white;
-   }
-}
-
-@media only screen and (max-width:1023px){
-    
-
-    header{
-        background-color: rgb(27, 9, 110);
-        height: 70px;
-        margin-top: -10px;
-    }
-    
-    .body{
-        display:flex;
-        justify-content: center;
-        border:5px solid;
-        background-color: white;
-        border-color: transparent;
-        flex-direction: column;
-        border-radius: 20px;
-        width: 700px;
-        height: 1000px;
-        margin-left: 150px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-        
-       
-    }
-    
-        body{
-            background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-            width: 100%;
-        }
-    
-        .balance{
-            display: flex;
-            justify-content: flex-start;
-            margin-left: 70px;
-            padding-top: 50px;
-            margin-bottom: 10px;
-            padding-bottom: 20px;
-        }
-        .card1{
-          
-        background-color:rgb(9, 9, 146);
-        text-align: center;
-        font-size: 10px;
-        border: 0px;
-        border-radius: 10px;
-        width: 500px; height: 150px;
-        border-color: black;
-        margin-bottom : 10px;
-        margin-right: 10px;
-        color:white;
-        box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.432);
-        margin-left: 60px;
-    
-        }
-    
-        .pay{
-            font-size: 20px;
-            margin-left: 50px;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            color: rgb(4, 4, 65);
-        }
-    
-         .bank, .bank1{
-         background-color: transparent;
-        text-align: left;
-        font-size: 20px;
-        border: 1.5px solid;
-        border-radius: 10px;
-        width: 500px; height: 120px;
-        border-color: black;
-        margin-bottom : 10px;
-        color: black;
-        margin-left: 50px;
-        margin-top: 20px;
-    
-        }
-         .bank1{
-            margin-top: 20px;
-         }
-    
-        .add{
-            margin-top: -40px;
-            margin-left: 50px;
-            color: rgba(6, 6, 97, 0.884);
-            font-weight: 580;
-            font-size: 40px;
-            padding-bottom: 30px;
-        }
-        .h3{
-            margin-left: 30px;
-            margin-top: 20px;
-         font-size: 20px;
-        }
-        #i{
-          font-size: 30px;
-          color: black;
-       }
-       button:hover{
-                  background-color: rgb(4, 4, 78);
-                  color: white;
-       }
-    }
-
-@media only screen and (max-width:1500px) {
-    
-
-header{
-    background-color: rgb(27, 9, 110);
-    height: 70px;
-    margin-top: -10px;
-}
-
-.body{
-    display:flex;
-    justify-content: center;
-    border:5px solid;
-    background-color: white;
-    border-color: transparent;
-    flex-direction: column;
-    border-radius: 20px;
-    width: 1000px;
-    height: 750px;
-    margin-left: 170px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-    body{
-        background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-        width:100%;
-    }
-
-    .balance{
-        display: flex;
-        justify-content: flex-start;
-        margin-left: 70px;
-        padding-top: 50px;
-        margin-bottom: 10px;
-        padding-bottom: 20px;
-    }
-    .card1{
-      
-    background-color:rgb(9, 9, 146);
-    text-align: center;
-    font-size: 10px;
-    border: 0px;
-    border-radius: 10px;
-    width: 700px; height: 150px;
-    border-color: black;
-    margin-bottom : 10px;
-    margin-right: 10px;
-    color:white;
-    box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.432);
-    margin-left: 160px;
-
-    }
-
-    .pay{
-        font-size: 20px;
-        margin-left: 150px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        color: rgb(4, 4, 65);
-    }
-
-     .bank, .bank1{
-     background-color: transparent;
-    text-align: left;
-    font-size: 10px;
-    border: 1.5px solid;
-    border-radius: 10px;
-    width: 600px; height: 80px;
-    border-color: black;
-    margin-bottom : 10px;
-    color: black;
-    margin-left: 223px;
-    margin-top: 20px;
-
-    }
-     .bank1{
-        margin-top: 20px;
-     }
-
-    .add{
-        margin-top: 80px;
-        margin-left: 150px;
-        color: rgba(6, 6, 97, 0.884);
-        font-weight: 580;
-        font-size: 30px;
-    }
-    .h3{
-        margin-left: 30px;
-        margin-top: 20px;
-     font-size: 20px;
-    }
-    #i{
-      font-size: 30px;
-      color: black;
-   }
-   button:hover{
-              background-color: rgb(4, 4, 78);
-              color: white;
-   }
-}
-
-    
-
-    header{
-        background-color: rgb(27, 9, 110);
-        height: 70px;
-        margin-top: -10px;
-    }
-    
-    .body{
-        display:flex;
-        justify-content: center;
-        border:5px solid;
-        background-color: white;
-        border-color: transparent;
-        flex-direction: column;
-        border-radius: 20px;
-        width: 1000px;
+        width: 70%;
         height: 750px;
-        margin-left: 170px;
+        margin-left: 15%;
         margin-bottom: 20px;
         margin-top: 20px;
-        position:fixed
+        position:absolute;
     }
         body{
-            background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
-            width:100%;
+            background: white;
+            
         }
     
         .balance{
             display: flex;
             justify-content: flex-start;
-            margin-left: 70px;
+            margin-left: 5%;
             padding-top: 50px;
             margin-bottom: 10px;
             padding-bottom: 20px;
         }
         .card1{
           
-        background-color:rgb(9, 9, 146);
+        background-color: blue;
         text-align: center;
         font-size: 10px;
         border: 0px;
         border-radius: 10px;
-        width: 700px; height: 150px;
+        width: 70%; height: 40%;
         border-color: black;
         margin-bottom : 10px;
         margin-right: 10px;
         color:white;
         box-shadow: 5px 5px 5px rgba(0, 0, 255, 0.432);
-        margin-left: 160px;
+        margin-left: 15%;
     
         }
     
@@ -481,11 +68,11 @@ header{
         font-size: 10px;
         border: 1.5px solid;
         border-radius: 10px;
-        width: 600px; height: 80px;
+        width: 80%; height: 80px;
         border-color: black;
         margin-bottom : 10px;
         color: black;
-        margin-left: 223px;
+        margin-left: 10%;
         margin-top: 20px;
     
         }
@@ -495,14 +82,14 @@ header{
     
         .add{
             margin-top: 80px;
-            margin-left: 150px;
-            color: rgba(6, 6, 97, 0.884);
+            margin-left: 14%;
+            color: rgba(14, 3, 63, 0.884);
             font-weight: 580;
             font-size: 30px;
         }
         .h3{
-            margin-left: 30px;
-            margin-top: 20px;
+            margin-left: 10%;
+            margin-top: 15px;
          font-size: 20px;
         }
         #i{
@@ -510,8 +97,83 @@ header{
           color: black;
        }
        button:hover{
-                  background-color: rgb(4, 4, 78);
+                  background-color: blue;
                   color: white;
+                  border: none;
+                  box-shadow: 3px 3px 3px 3px rgba(0, 0, 255, 0.192);
        }
 
+       @media screen  and (max-width: 768px) {
+        .balance{
+            width: 70%;
+            height: 30%;
+                margin-top: -25px;
+                font-size: 12px;
+                font-weight: 700;
+            
+        }
+        .body{
+            width: 70%;
+            border: none;
+        }
+        header{
+            display: none;
+        }
+        .add{
+            margin-left: 12%;
+           font-size: 30px; 
+      }
+        
+        .card1{
+            width:70%;
+            margin-left: 10%;
+        }
+        h1{
+            margin-left: -20%;
+            font-size: 17px;
+            
+        }
+        button{
+            width:100%
+        }
+       }
+       @media screen  and (max-width: 594px) {
+        .card1{
+            width: 70%;
+            height: 90px;
+            margin-left: 12%;
+        }
+        .balance{
+            margin-top: -25px;
+            font-size: 10px;
+            font-weight: 700;
+            
+        }
+
+        .body{
+            width: 100%;
+            margin-left:0px;
+            border: none;
+        }
+        .add{
+              margin-left: 14%;
+             font-size: 30px; 
+        }
+        h1{
+            margin-left: -20%;
+            font-size: 17px;
+            
+        }
+        .balance{
+            margin-top: -25px;
+            font-size: 10px;
+            font-weight: 700;
+        }
+        header{
+            display:none;
+        }
+        h2{
+            margin-top: 1%;
+        }
+       }
     
